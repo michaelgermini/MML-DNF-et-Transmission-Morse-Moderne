@@ -1,0 +1,44 @@
+# Core dependencies
+beautifulsoup4>=4.12.0  # HTML parsing
+lxml>=4.9.0             # XML/HTML parsing
+chardet>=5.2.0          # Character encoding detection
+typing-extensions>=4.5.0  # Type hints for older Python
+
+# Cryptography and security
+cryptography>=41.0.0    # Core crypto functions
+pynacl>=1.5.0           # NaCl cryptography
+hashlib                # Built-in Python
+
+# Network and async
+aiohttp>=3.8.0          # Async HTTP client
+websockets>=11.0.0      # WebSocket support
+requests>=2.31.0        # HTTP library
+
+# Data processing
+numpy>=1.21.0           # Numerical computing
+pandas>=1.5.0           # Data manipulation
+msgpack>=1.0.0          # MessagePack serialization
+
+# Command line interface
+click>=8.1.0            # CLI framework
+rich>=13.0.0            # Rich terminal UI
+tqdm>=4.65.0            # Progress bars
+
+# Configuration and logging
+pyyaml>=6.0.0           # YAML support
+toml>=0.10.0            # TOML support
+structlog>=23.0.0       # Structured logging
+
+# Utilities
+pathlib2>=2.3.0         # Path utilities
+python-dateutil>=2.8.0  # Date/time utilities
+pytz>=2023.0            # Timezone support
+
+# Optional: API dependencies
+# fastapi>=0.100.0
+# uvicorn>=0.23.0
+
+# Optional: Development dependencies (see setup.py extras_require)
+# pytest>=7.0.0
+# black>=22.0.0
+# mypy>=1.0.0
